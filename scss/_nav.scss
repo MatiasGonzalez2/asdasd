@@ -1,0 +1,84 @@
+// nav
+
+// nav pages
+.botonera{
+    div{
+        display: flex;
+        justify-content: end;
+        ul{
+            li{
+                font-size: $textXxsm;
+                color: $whitesmokeColor;
+                display: flex;
+                justify-content: center;
+                a{
+                    color: $whitesmokeColor;
+                    text-decoration: none;
+                    background-image: linear-gradient(currentColor, currentColor);
+                    background-position: 0% 100%;
+                    background-repeat: no-repeat;
+                    background-size: 0% 2px;
+                    transition: background-size .3s;
+                    &:hover{
+                        color: $whitesmokeColor;
+                        background-size: 100% 2px;
+                    }
+                }
+            }
+        }
+    }
+
+    svg{
+        fill: $whitesmokeColor;
+        text-decoration: none;
+        &:hover{
+            fill: $pColor;
+            text-decoration: none;
+        }
+    }
+}
+
+.nav{
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    .links-pages{
+        align-items: center;
+        li{
+            margin: 0 30px;
+            height: 10px;
+        }
+    }
+    .links-home{
+        align-items: center;
+        justify-content: end;
+        margin-right: 30px;
+        li{
+            margin: 10px 30px;
+        }
+    }
+    .img-logo{
+        width: 100px;
+        height: 100px;
+        margin-left: 30px;
+        display: flex;
+    }
+    .img-redes{
+        width: 35px;
+        height: 35px;
+        margin-left: 10px;
+        align-items: center;
+    }
+}
+
+.banner-header{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+

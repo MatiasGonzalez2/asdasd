@@ -1,0 +1,56 @@
+//extends
+//minuto 30 aprox
+.ctn{
+    padding: 10px 30px;
+    background: $mainColor;
+    border-radius: 30px;
+    color: $whitesmokeColor;
+    margin-top: 30px;
+    text-decoration: none;
+    &:hover{
+        color: $pColor;
+    }
+}
+
+.ctn-qh{
+    @extend .ctn;
+    margin: 0;
+    padding: 10px 30px;
+}
+
+.line{
+    width: 200px;
+    height: 4px;
+    background: $mainColor;
+    margin: 10px auto; 
+    border-radius: 5px;
+}
+
+.line-2{
+    @extend .line;
+    margin-bottom: 50px;
+}
+
+.line-3{
+    @extend .line;
+    margin-left: -1px;
+}
+
+//mixins
+@mixin textos ($size, $line, $color, $align){
+    //variables locales
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+    font-family: $mainFont;//variable global
+    @if align == center{text-align: center}
+    @else if $align == left {text-align: left}
+    @else if $align == justify {text-align: justify}
+}
+
+//p{
+//   @include textos(1.3em, 1.8em, $pColor)
+//}
+
+
+

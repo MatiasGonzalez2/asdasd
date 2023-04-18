@@ -1,0 +1,279 @@
+// resposive
+@media screen and (max-width:768px){
+    /* pages */
+    .banner-header{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .nav{
+        padding: 0;
+        .links-home{
+            align-items: end;
+            justify-content: end;
+            flex-direction: column;
+            margin: 0;
+            .img-svg{
+                align-items: center; 
+                justify-content: center;
+            }
+            .img-redes{
+                justify-content: center;
+            }
+        }
+        .img-logo{
+            width: 70px;
+            height: 70px;
+            margin: 0 auto;
+
+        }
+    }
+
+    /* Index */
+
+    .header-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        h2{
+            margin: 0 auto;
+        }
+        .ctn{
+            padding: 15px 30px;
+        }
+    }
+
+    /* Carousel */
+
+    .carousel-item {
+        .header-content{
+            margin-bottom: 25px;
+        }
+        p{
+            font-size: $textXxsm;
+            
+        }
+        .chico{
+            font-size: $textXxxsm;
+        }
+        .img-carousel{
+            width: 1920px;
+            height: 300px;
+        }
+        .ctn{
+            display: none; 
+        }
+    }
+
+    /* section 1*/
+
+    .events{
+        .row{
+            .col{
+                .ctn{
+                    margin-top: 20px;
+                    padding: 15px 30px;
+                }
+            }
+        }
+        h1{
+            font-size: $textMd;
+        }
+        article{
+            div{
+                .card-title{
+                    font-size: $textSm;
+                }
+                .card-text{
+                    font-family: $secondaryFont;
+                    text-align: justify;
+                    font-size: $textXxsm;
+                }
+            }
+        }
+    }
+        
+    /* section 2 */
+    .explore{
+        h3{
+            font-size: $textXl;
+            text-align: center;
+        }
+        .explore-content{
+            width: 100%;
+            p{
+                font-size: $textXxsm;
+            }
+            .ctn{
+                padding: 15px 30px;
+                margin-top: 20px;
+            }
+        }
+    }
+    
+    /* section 3 */
+
+    .section-home{
+        width: 100%;
+        .row{
+            padding: 0;
+            width: 80%;
+            margin: 0 auto;
+            .content-col{
+                width: 100%;
+                margin-bottom: 30px;
+                .ctn{
+                    margin: auto;  
+                    padding: 15px 30px;
+                }
+            }    
+            h3{
+                font-size: $textXl;
+            }
+            p{
+                padding: 0;
+                text-align: center;
+                font-size: $textXxsm;
+                justify-content: center;
+                text-align: justify;
+                margin: 20px 0;
+            }
+            .col{
+                width:100%;
+                img{
+                    max-width: 100%;
+                }
+                .image-gallery{
+                    justify-content: center;
+                    align-items: center;
+                    margin: 20px 0;
+                    display: flex;
+                    img{
+                        width: 450px;
+                        height: 450px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* end index */
+
+    footer{
+        padding: 10px;
+    }
+
+    /* start que hacer */
+
+    .container{
+        .card{
+            margin: 0;
+            .img-p{
+                width: 100%;
+            }
+            .card-body{
+                .title-p{
+                    font-size: $textMd;
+                }
+                .ctn-qh{
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    
+
+    .intro-qh {
+        .title{
+            font-size: $textLg;   
+        }
+        .p-qh{
+            font-size: $textXxsm;
+            margin: 0 40px;
+            text-align: center;
+        }
+    }
+
+    /* end que hacer */
+
+    /* start galeria */
+
+    #galeria{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(22,auto);
+        grid-template-areas:  
+        'fota'
+        'fotb'
+        'fotc'
+        'fotd'
+        'fote'
+        'fotf'
+        'fotg'
+        'foth'
+        'foti'
+        'fotj'
+        'fotk'
+        'fotl'
+        'fotm'
+        'fotn'
+        'foto'
+        'fotp'
+        'fotq'
+        'fotr'
+        'fots'
+        'fott'
+        'fotu'
+        'fotv';
+    }
+    main{
+        div{
+            iframe{
+                filter: none;
+            }
+            a{
+                img{
+                    filter: none;
+                }
+                video{
+                    filter: none;    
+                }
+            }
+        }
+    }
+    
+    /* end galeria */
+
+    /* Monumentos */
+    .monumentos{
+        
+        p{
+            font-size: $textXxxsm;
+            text-align: justify;
+            .p-qh{
+                padding: 0;
+            }
+        }
+    }
+
+    /* end monumentos */
+
+    /* start contacto */
+    .contacto{
+        div{
+            p{
+                text-align: justify;
+            }
+        }
+        article{
+            div{
+                .centro-turista{
+                    font-size: $text1;
+                }
+            }
+        }
+    }
+    /* end contacto */
+}

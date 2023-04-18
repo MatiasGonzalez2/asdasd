@@ -1,0 +1,57 @@
+// que hacer
+
+.intro-qh{
+    margin: 50px auto;
+    .line{
+        margin-bottom: 20px;
+    }
+    .title{
+        font-size: $textXl;
+    }
+    .p-qh{
+        font-size: $textSm;
+        margin: 0 70px;
+    }
+}
+
+
+.contenedor-text-in{
+    width: 100%;
+    height: auto;
+    background-color: $quehacerColor;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    overflow-x:auto;
+}
+
+.col-qh{
+    flex-direction: column;
+    .img-p{
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    .content-text{
+        justify-content: space-between;
+        text-align: justify;
+        margin: auto;
+        padding: 15px;
+    }
+    .title-p{
+        text-align: left;
+        margin: 20px auto;
+        padding: 0;
+    }
+    .card-text{
+        font-family: $secondaryFont;
+        font-size: $textXxsm;
+    }
+}
+
+
+
+
+
+

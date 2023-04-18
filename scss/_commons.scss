@@ -1,0 +1,32 @@
+// commons
+
+// global
+*{
+    box-sizing: border-box;
+    font-family: $mainFont;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+p{
+    @include textos (1.5em, 1.8em, $pColor, justify)
+}
+
+label{
+    font-size: 1.5em;
+    color: $pColor;
+}
+
+.bg-green {
+    background-color: map-get($map: $paleta, $key: uno);
+}
+
+.card p{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
