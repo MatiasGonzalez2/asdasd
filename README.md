@@ -1,4 +1,4 @@
 # PreEntrega2-Gonzalez
 
-PreEntrega2-González Matías
+PreEntrega3-González Matías
 Intro a GitHub
